@@ -1,0 +1,124 @@
+/* ===== Reset ===== */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* ===== Font ===== */
+@font-face {
+    font-family: "Inter";
+    src: url("../assets/fonts/Inter-VariableFont_slnt,wght.ttf") format("truetype");
+    font-weight: 100 900;
+    font-display: swap;
+}
+
+/* ===== Design tokens ===== */
+:root {
+    /* colors */
+    --green: hsl(75, 94%, 57%);
+    --white: hsl(0, 0%, 100%);
+    --grey-700: hsl(0, 0%, 20%);
+    --grey-800: hsl(0, 0%, 12%);
+    --grey-900: hsl(0, 0%, 8%);
+
+    /* spacing */
+    --space: 1.5rem;
+    --radius: 0.75rem;
+}
+
+/* ===== Base ===== */
+body {
+    font-family: "Inter", sans-serif;
+    font-size: 0.875rem;
+    background-color: var(--grey-900);
+    color: var(--white);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/* ===== Layout ===== */
+main {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+footer {
+    margin-top: 2rem;
+    text-align: center;
+}
+
+/* ===== Card ===== */
+.card {
+    width: 90%;
+    max-width: 380px;
+    padding: 2rem;
+    background-color: var(--grey-800);
+    border-radius: var(--radius);
+    text-align: center;
+}
+
+.card img {
+    display: block;
+    width: 5.5rem;
+    height: 5.5rem;
+    border-radius: 50%;
+    margin: 0 auto var(--space);
+}
+
+.card h1 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+}
+
+.location {
+    font-weight: 600;
+    color: var(--green);
+    margin-bottom: var(--space);
+}
+
+.bio {
+    line-height: 1.5;
+    margin-bottom: var(--space);
+}
+
+/* ===== Links ===== */
+.card ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+.card ul a {
+    display: block;
+    padding: 0.75rem;
+    background-color: var(--grey-700);
+    color: var(--white);
+    font-weight: 700;
+    text-decoration: none;
+    border-radius: 0.5rem;
+    transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+.card ul a:hover,
+.card ul a:focus-visible {
+    background-color: var(--green);
+    color: var(--grey-900);
+}
+
+/* ===== Attribution ===== */
+.attribution {
+    font-size: 0.6875rem;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
