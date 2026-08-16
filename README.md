@@ -30,7 +30,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add your Frontend Mentor solution URL here](#)
+- Solution URL: [frontendmentor.io/solutions/responsive-social-links-profile-with-flexbox-and-self-hosted-inter-KCsAWYhRIh](https://www.frontendmentor.io/solutions/responsive-social-links-profile-with-flexbox-and-self-hosted-inter-KCsAWYhRIh)
 - Live Site URL: [stevacode.github.io/social-links-profile-main](https://stevacode.github.io/social-links-profile-main/)
 
 ## My process
